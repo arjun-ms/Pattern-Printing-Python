@@ -7,3 +7,11 @@ def print_pattern(n):
         print()                        # Move to the next line after each row
 
 print_pattern(5)                       # Call the function with n = 5
+
+"""
+1 2 3 4 5 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+"""
