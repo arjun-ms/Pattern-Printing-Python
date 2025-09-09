@@ -1,16 +1,11 @@
 
 def print_pattern(n):
-    # for rows
+ # outer loop → rows
     for i in range(n):
-    
-        # print stars
-        for j in range(i+1):
+        # inner loop → columns (stars)
+        for j in range(i + 1):
             print("*", end=" ")
-          
-        # print spaces
-        for k in range(n-i+1):
-            print(" ", end=" ") 
-            
+        # move to next line after each row
         print()
     
     
